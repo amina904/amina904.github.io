@@ -1,7 +1,7 @@
 body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
       Helvetica, Arial, "Lucida Grande", sans-serif;
-    background-color: #c1d72e;
+      background: #c1d72e;
     color: white;
     text-align: center;
     height: 100%;
@@ -83,4 +83,80 @@ body {
     border: solid 1px white;
     color: #c1d72e;
   }
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:white;
+  color: black;
+  margin: auto;
+  padding: 20px;
+  width: 100%;
   
+}
+#monImage{
+  display: flex;
+  height: 100px;
+  float: left;
+  margin: 20px;
+  border-radius: 50px;
+
+  color: rgb(255, 255, 255);
+  border: solid 4px pink;
+
+}
+.bouton1{
+border-radius: 10px;
+background: #c1d72e;
+color: white;
+border: solid 1px white;
+text-decoration: none;
+cursor: pointer;
+font-size: 1.2em;
+padding: 10px 10px;
+width: 180px;
+height: 50px;
+margin: 0 10px 10px 0;
+
+outline: none;
+}
+.bouton2{
+border-radius: 10px;
+background: #c1d72e;
+color: white;
+border: solid 1px white;
+text-decoration: none;
+cursor: pointer;
+font-size: 1.2em;
+padding: 10px 10px;
+width: 180px;
+height: 50px;
+margin: 0 10px 10px 0;
+
+outline: none;
+  
+}
+
+.bouton3{
+border-radius: 10px;
+background: #c1d72e;
+color: rgb(255, 255, 255);
+border: solid 1px white;
+text-decoration: none;
+cursor: pointer;
+font-size: 1.2em;
+padding: 10px 10px;
+width: 180px;
+height: 50px;
+margin: 0 10px 10px 0;
+outline: none;
+}
+.nom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  
+
+}
+
